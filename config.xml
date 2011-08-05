@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.renaud_lavoie.networkapp"
+	version 	= "0.1">
+
+	<name>The Ren Network</name>
+
+	<description>
+		See some information about me and CityMedia, my own internet television channel. More coming soon (which info can be seen by app owners).
+	</description>
+
+	<author href="http://www.therenblog.com"
+		email="renaud_lavoie@hotmail.ca">
+		Renaud Lavoie 
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="1.5" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+	<icon src="icon.png" gap:role="default" />
+
+    <gap:splash src="" />
+
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
